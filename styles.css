@@ -2,3 +2,94 @@
 @media(max-width:900px){.container{width:min(var(--max),calc(100% - 40px))}.hero-layout{grid-template-columns:minmax(0,1.35fr) minmax(260px,.85fr);gap:28px}.hero-image{height:370px}.side-story{grid-template-columns:90px 1fr;gap:12px}.side-thumb{height:82px}.side-story h2{font-size:15px}.topic-grid{grid-template-columns:repeat(2,1fr)}.footer-main{grid-template-columns:1.2fr .8fr .8fr;gap:30px}.footer-note{grid-column:1/-1;display:flex;align-items:center;gap:25px;border-left:0;border-top:1px solid #476154;padding:22px 0 0}.footer-note p{max-width:420px;margin:0}.newsletter-inner{grid-template-columns:80px 1fr 1fr;gap:22px}.newsletter-symbol{width:75px;height:75px}.newsletter-symbol svg{width:52px;height:52px}}
 @media(max-width:700px){.container{width:calc(100% - 36px)}.topline-inner{height:auto;min-height:34px;padding:8px 0;gap:10px}.topline-inner span{font-size:8px;line-height:1.4}.topline a{font-size:9px;white-space:nowrap}.header-main{height:72px}.brand-mark{width:34px;height:34px}.brand-word{font-size:23px}.support-button{display:none}.menu-toggle{display:block}.main-nav{display:none;border-top:1px solid var(--line)}.main-nav.is-open{display:block}.nav-inner{height:auto;padding-top:10px;padding-bottom:15px;display:grid;grid-template-columns:repeat(2,1fr);gap:0 15px;overflow:visible}.nav-inner a{padding:9px 0;border-bottom:1px solid var(--line);font-size:12px}.hero-section{padding-top:34px;padding-bottom:49px}.hero-kicker{font-size:9px;margin-bottom:16px}.hero-layout{grid-template-columns:1fr;gap:34px}.hero-image{height:280px}.hero-copy{padding-top:18px}.hero-copy h1{font-size:39px;letter-spacing:-1px}.hero-copy p{font-size:13px}.hero-aside{padding-top:0}.side-story{grid-template-columns:105px 1fr}.side-thumb{height:86px}.side-story h2{font-size:17px}.mission-inner{min-height:160px;grid-template-columns:1fr 42px;gap:10px}.mission-label{grid-column:1/-1;padding-top:25px}.mission-inner p{font-size:27px;padding-bottom:25px}.round-arrow{width:40px;height:40px;margin-bottom:17px}.section{padding-top:62px;padding-bottom:62px}.section-heading{align-items:flex-start;flex-direction:column;gap:14px;margin-bottom:24px}.section-heading h2{font-size:34px}.three-col,.two-col{grid-template-columns:1fr;gap:18px}.card-image{height:220px}.card-body{padding:19px}.card-body h3{font-size:23px}.topics-section{padding:63px 0 54px}.light-heading>p{margin-top:0}.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.topic-tile{min-height:150px;padding:17px}.topic-tile strong{font-size:20px}.topic-tile>span:nth-last-of-type(1){font-size:10px;max-width:130px}.topic-number{top:14px;right:14px}.topic-icon{font-size:25px}.topic-tile b{right:15px;bottom:13px}.topic-more{line-height:1.8}.wide-story{grid-template-columns:1fr}.wide-image{min-height:220px;height:220px}.wide-copy{padding:23px}.wide-copy h3{font-size:27px}.editorial-feature{grid-template-columns:1fr}.editorial-photo{min-height:260px}.editorial-content{padding:43px 26px 48px}.editorial-content h2{font-size:37px}.video-section{padding-bottom:65px}.video-card{grid-template-columns:1fr}.video-art{min-height:220px}.video-copy{padding:28px 25px}.video-copy h3{font-size:27px}.newsletter-section{padding:45px 0}.newsletter-inner{grid-template-columns:1fr;gap:19px}.newsletter-symbol{width:65px;height:65px}.newsletter-symbol svg{width:43px;height:43px}.newsletter-copy h2{font-size:30px}.newsletter-form{margin-top:2px}.footer-main{grid-template-columns:1fr 1fr;gap:30px 20px;padding-bottom:38px}.footer-brand-col{grid-column:1/-1}.footer-note{grid-column:1/-1;display:block;padding-top:19px}.footer-note p{margin:8px 0 13px}.footer-bottom{padding:13px 0;flex-wrap:wrap;justify-content:flex-start;gap:6px 20px}.search-dialog{padding:31px 23px;margin-top:9vh}.search-dialog h2{font-size:29px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Typography refinement: slightly larger type for easier reading */
+body{font-size:16px}
+.topline{font-size:11px}
+.brand-word{font-size:28px}
+.brand-word small{font-size:13px}
+.support-button{font-size:13px}
+.nav-inner a{font-size:13px}
+.hero-kicker,.eyebrow,.mission-label{font-size:11px}
+.image-tag{font-size:10px}
+.article-meta{font-size:10px}
+.hero-copy h1{font-size:clamp(40px,4.6vw,62px)}
+.hero-copy p{font-size:17px}
+.text-link{font-size:13px}
+.aside-heading{font-size:11px}
+.side-story h2{font-size:19px}
+.side-story .article-meta{font-size:9px}
+.all-news{font-size:12px}
+.mission-inner p{font-size:clamp(27px,3.2vw,40px)}
+.section-heading h2{font-size:clamp(33px,3.8vw,46px)}
+.card-body h3{font-size:24px}
+.card-body p,.wide-copy p{font-size:14px}
+.card-read{font-size:12px}
+.topic-number{font-size:10px}
+.topic-tile strong{font-size:25px}
+.topic-tile>span:nth-last-of-type(1){font-size:12px}
+.light-heading>p{font-size:14px}
+.wide-copy h3{font-size:clamp(25px,2.6vw,32px)}
+.editorial-content h2{font-size:clamp(34px,4.2vw,51px)}
+.editorial-content p{font-size:15px}
+.button-light{font-size:12px}
+.video-copy h3{font-size:33px}
+.video-copy p{font-size:15px}
+.video-label{font-size:10px}
+.newsletter-copy h2{font-size:35px}
+.newsletter-copy p{font-size:14px}
+.newsletter-form label{font-size:11px}
+.email-field input{font-size:14px}
+.email-field button{font-size:12px}
+.newsletter-form small{font-size:10px}
+.footer-brand-col p{font-size:13px}
+.footer-links strong{font-size:12px}
+.footer-links a,.footer-note>a{font-size:12px}
+.footer-note p{font-size:21px}
+.footer-bottom{font-size:10px}
+.search-dialog h2{font-size:37px}
+.search-input-wrap input{font-size:16px}
+.search-hint,.no-results{font-size:14px}
+.search-result span{font-size:10px}
+.search-result strong{font-size:19px}
+
+@media(max-width:900px){
+  .side-story h2{font-size:17px}
+  .hero-copy h1{font-size:clamp(38px,5vw,56px)}
+  .mission-inner p{font-size:30px}
+  .topic-tile strong{font-size:24px}
+}
+
+@media(max-width:700px){
+  body{font-size:16px}
+  .topline-inner span{font-size:9px}
+  .topline a{font-size:10px}
+  .brand-word{font-size:25px}
+  .brand-word small{font-size:12px}
+  .nav-inner a{font-size:14px}
+  .hero-kicker{font-size:10px}
+  .hero-copy h1{font-size:42px}
+  .hero-copy p{font-size:15px}
+  .article-meta{font-size:10px}
+  .side-story h2{font-size:19px}
+  .side-story .article-meta{font-size:9px}
+  .mission-label,.eyebrow{font-size:11px}
+  .mission-inner p{font-size:29px}
+  .section-heading h2{font-size:37px}
+  .card-body h3{font-size:25px}
+  .card-body p,.wide-copy p{font-size:14px}
+  .card-read,.text-link{font-size:13px}
+  .topic-tile strong{font-size:22px}
+  .topic-tile>span:nth-last-of-type(1){font-size:11px}
+  .wide-copy h3{font-size:29px}
+  .editorial-content h2{font-size:39px}
+  .editorial-content p{font-size:15px}
+  .video-copy h3{font-size:29px}
+  .video-copy p{font-size:14px}
+  .newsletter-copy h2{font-size:32px}
+  .newsletter-copy p{font-size:14px}
+  .footer-links a,.footer-note>a{font-size:13px}
+  .footer-bottom{font-size:11px}
+  .search-dialog h2{font-size:31px}
+  .search-input-wrap input{font-size:15px}
+}
